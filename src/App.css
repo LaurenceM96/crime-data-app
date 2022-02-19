@@ -1,6 +1,8 @@
 :root {
   --placeholder-txt-color: rgba(119, 119, 119, 0.733);
   --input-focus-color: #5c5c5c;
+  --input-width: 85vw;
+  --input-font-size: 20px;
 }
 
 .App {
@@ -28,12 +30,12 @@
 .input-box {
   margin-top: 20px;
   color:rgb(26, 26, 26);
-  font-size: 25px;
+  font-size: var(--input-font-size);
   text-align: center;
   border: var(--input-focus-color) solid 1px;
   background-color: #fdfdfd;
   border-radius: 40px;
-  width: 20vw;
+  width: var(--input-width);
   height: 4rem;
   transition-duration: 0.2s;
 }
@@ -56,11 +58,9 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (min-width: 450px) {
+  :root {
+    --input-width: 20vw;
+    --input-font-size: 25px;
   }
 }

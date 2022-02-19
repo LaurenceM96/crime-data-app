@@ -1,11 +1,16 @@
+:root {
+    --crime-width: 85vw;
+    --crime-font-size: 20px;
+  }
+
 .Crime {
     text-align: left;
     border: rgb(255, 255, 255) solid 3px;
     border-radius: 10px;
-    width: 25vw;
+    width: var(--crime-width);
     padding-left: 10px;
     color:rgb(255, 255, 255);
-    font-size: 25px;
+    font-size: var(--crime-font-size);
 }
 
 ul {
@@ -15,4 +20,11 @@ ul {
 h3 {
     color: white;
     font-size: 40px;
+}
+
+@media screen and (min-width: 450px) {
+    :root {
+      --crime-width: 20vw;
+      --crime-font-size: 25px;
+    }
 }
