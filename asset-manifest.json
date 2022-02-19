@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/crime-data-app/static/css/main.0cb7502b.css",
+    "main.js": "/crime-data-app/static/js/main.f706e7d5.js",
+    "static/js/787.895e91c5.chunk.js": "/crime-data-app/static/js/787.895e91c5.chunk.js",
+    "index.html": "/crime-data-app/index.html",
+    "main.0cb7502b.css.map": "/crime-data-app/static/css/main.0cb7502b.css.map",
+    "main.f706e7d5.js.map": "/crime-data-app/static/js/main.f706e7d5.js.map",
+    "787.895e91c5.chunk.js.map": "/crime-data-app/static/js/787.895e91c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cb7502b.css",
+    "static/js/main.f706e7d5.js"
+  ]
+}
