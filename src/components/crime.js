@@ -35,6 +35,7 @@ function Crimes(props) {
     return (
         <div>
             <h3>Crime Data</h3>
+            <h2>(within last month)</h2>
             <ul className="Crimes">
                 {crimes && crimes.map((crime, idx) => (
                     <div className="Crime" key={idx}>

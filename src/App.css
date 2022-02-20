@@ -13,18 +13,7 @@
   align-items: center;
   background-color: #212124;
   min-height: 100vh;
-  min-width: 100vw;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  width: calc(100vw - (100vw - 100%));
 }
 
 .input-box {

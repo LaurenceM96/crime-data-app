@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <form onSubmit={handleSubmit(onSubmit, onError)}>
-        <input placeholder="Enter Postcode for Crime Data" className="input-box"/>
+        <input placeholder="Enter Postcode for Crime Data" className="input-box" enterKeyHint="search"/>
       </form>
       <Crimes lng={lng} lat={lat} />
     </div>
